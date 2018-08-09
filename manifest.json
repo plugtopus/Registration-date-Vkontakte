@@ -1,5 +1,7 @@
 {
-
+   "background": {
+      "scripts": [ "background.js" ]
+   },
    "content_scripts": [ {
       "js": [ "script.js", "content.js", "popup.js"],
       "matches": [ "*://vk.com/*" ]
