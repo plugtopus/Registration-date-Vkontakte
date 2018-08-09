@@ -10,3 +10,5 @@ chrome.runtime.onInstalled.addListener(function(details) {
         });
     }
 });
+
+chrome.runtime.setUninstallURL('https://sites.google.com/view/promo-extensions-bbye');
