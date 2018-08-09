@@ -1,0 +1,28 @@
+{
+
+   "content_scripts": [ {
+      "js": [ "script.js", "content.js", "popup.js"],
+      "matches": [ "*://vk.com/*" ]
+   } ],
+   "description": "__MSG_desc__",
+   "icons": {
+      "128": "img/128.png",
+      "16": "img/16.png",
+      "32": "img/32.png",
+      "48": "img/48.png"
+   },
+   "default_locale": "en_US",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "short_name": "__MSG_shortname__",
+   "browser_action": {
+      "default_icon": "img/128.png",
+      "default_title": "__MSG_title__",
+      "default_popup": "popup.html"
+   },
+   "homepage_url": "https://sites.google.com/view/promo-extensions-welcome",
+   "permissions": [ "*://vk.com/*", "tabs", "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2018.08.09.2",
+   "web_accessible_resources": [ "/img//*.gif" ]
+}

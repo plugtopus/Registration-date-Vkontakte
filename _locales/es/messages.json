@@ -1,0 +1,20 @@
+﻿{
+   "desc": {
+      "message": "Extension shows registration date for Vkontakte users and user id Vkontakte. Bonus - removes ads Vkontakte!"
+   },
+   "name": {
+      "message": "Registration date Vkontakte"
+   },
+   "shortname": {
+      "message": "Registration date VK"
+   },
+   "title": {
+      "message": "Vkontakte registration date"
+   },
+   "regDate": {
+      "message": "Registration date:"
+   },
+   "share_text": {
+      "message": "Like the extension? Want more cool and free apps? Please share with friends and give us 5 star rating in the Chrome Web Store. Thank you!"
+   }
+}
